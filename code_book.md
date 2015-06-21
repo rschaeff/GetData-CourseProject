@@ -36,12 +36,17 @@ additionally, the following staistics are provided for each time-domain vector
 
 ## Time domain list
 
-time.BodyAcc - Body component of accelerometer vector
-time.GravityAcc - Gravity component of accelermeter vector
-time.BodyAccJerk - Jerk (i.e. integral of Acc) of body vector
-time.BodyGyro - Body component of gyroscope
-time.BodyGyroJerk - Body component of gyroscope jerk measure
-time.BodyAccMag - Acceleration magnitude, not a vector quantity like others
+*time.BodyAcc* - Body component of accelerometer vector
+
+*time.GravityAcc* - Gravity component of accelermeter vector
+
+*time.BodyAccJerk* - Jerk (i.e. integral of Acc) of body vector
+
+*time.BodyGyro* - Body component of gyroscope
+
+*time.BodyGyroJerk* - Body component of gyroscope jerk measure
+
+*time.BodyAccMag* - Acceleration magnitude, not a vector quantity like others
 
 ## Freq domain list
 
@@ -53,11 +58,15 @@ In addition to the above statistics, frequency-domain data included the followin
 * .maxInds  - Index of the frequency component with the largest magnitude
 * .bandsEnergy - 64-bin histogram of frequency components from FFT
 
-freq.BodyAcc - Body component of acclerometer vector
-freq.BodyAccJerk - Jerk of body acc vector
-freq.BodyAccJerkMag -  Magnitude of body acc vector (scalar!)
-freq.BodyGyro - Body component of gyroscope vector
-freq.BodyGyroMag - Magnitude of gyroscope vector (scalar!)
+*freq.BodyAcc* - Body component of acclerometer vector
+
+*freq.BodyAccJerk* - Jerk of body acc vector
+
+*freq.BodyAccJerkMag* -  Magnitude of body acc vector (scalar!)
+
+*freq.BodyGyro* - Body component of gyroscope vector
+
+*freq.BodyGyroMag* - Magnitude of gyroscope vector (scalar!)
 
 ## Average tidy data set
 
