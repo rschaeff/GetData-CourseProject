@@ -17,7 +17,7 @@ by activity and subject.
 
 # Dependencies
 
-The enclosed R script relies heavily on the "dplyr" R package. This pacakage is available at CRAN at
+The enclosed R script relies *heavily* on the "dplyr" R package. This pacakage is available at CRAN at
 http://cran.r-project.org/web/packages/dplyr/index.html
 
 # Cleaning
