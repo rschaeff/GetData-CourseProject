@@ -1,6 +1,6 @@
-## Human Activity Recognition Code Book
+# Human Activity Recognition Code Book
 
-# Identifiers
+## Identifiers
 
 *Subject.ID* - [1,30]. Integer value indicating the subject from whom the smartphone readings were taken
 
@@ -10,7 +10,7 @@
 
 *Input.Set*. [Training, Test]. Indicates whether the row was used for training or testing.
 
-# Time-domain data
+## Time-domain data
 
 Time domain data is taken from both the accelerometer and the gyroscope.  Each time-domain vector has X,Y, and Z components,
 as well as a common set of statistics. All data is range normalized to [-1,1].
@@ -34,7 +34,7 @@ additionally, the following staistics are provided for each time-domain vector
 *.arCoeff - Autoregression coefficients
 *.corellation - correlation coefficient between body and gravity vector
 
-# Time domain list
+## Time domain list
 
 time.BodyAcc - Body component of accelerometer vector
 time.GravityAcc - Gravity component of accelermeter vector
@@ -43,7 +43,7 @@ time.BodyGyro - Body component of gyroscope
 time.BodyGyroJerk - Body component of gyroscope jerk measure
 time.BodyAccMag - Acceleration magnitude, not a vector quantity like others
 
-# Freq domain list
+## Freq domain list
 
 In addition to the above statistics, frequency-domain data included the following:
  
@@ -59,7 +59,7 @@ freq.BodyAccJerkMag -  Magnitude of body acc vector (scalar!)
 freq.BodyGyro - Body component of gyroscope vector
 freq.BodyGyroMag - Magnitude of gyroscope vector (scalar!)
 
-# Average tidy data set
+## Average tidy data set
 
 An averaged tidy set for all features matching "mean" and "std" is provided with this script.
 These averages were stratified by Subject.ID and Acitivity.ID and with the aid of the 

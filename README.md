@@ -1,6 +1,6 @@
-## Conversion of the Human Activity Recognition raw data into a tidy data set
+# Conversion of the Human Activity Recognition raw data into a tidy data set
 
-# Introduction
+### Introduction
 
 The Human Activity Recognition dataset consists of measurements taken from 
 the accelerometer and gyrosscope of mobile devices from 30 individuals. Linear
@@ -15,12 +15,12 @@ data, wheras 30% of volunteers generated test data. In total, 561 features were 
 A final tidy data set is provided with the averages across each feature stratified
 by activity and subject.
 
-# Dependencies
+### Dependencies
 
 The enclosed R script relies *heavily* on the "dplyr" R package. This pacakage is available at CRAN at
 http://cran.r-project.org/web/packages/dplyr/index.html
 
-# Cleaning
+### Cleaning
 
 Substantial renaming of the features was accomplished. A single period, ".", 
 was adopted at the default seperator. The following characeters or tuples
@@ -41,7 +41,7 @@ Training and Test sets were merged into a single dataset, a column was added to 
 
 Activity descriptions were merged to the final data
 
-# Usage
+### Usage
 
 The script assumes that the extracted raw data is in the ./UCI HAR Dataset subdirectory with respect to the working directory.
 Running the script will load the data object "merge_data_df" into your working environment, and write the summary statistics
