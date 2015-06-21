@@ -22,17 +22,17 @@ For example:
 	time.GravityAcc.mean.Y - The Y-component of the Gravity component of the total accelerometer vector.
 
 additionally, the following staistics are provided for each time-domain vector
-*.mean - mean
-*.std  - standard deviation
-*.mad  - median absolute deviation
-*.max  - maximum of recorded value
-*.min  - minimum of recorded value
-*.sma  - signal magnitude area
-*.energy - Sum of squares divided by number of values
-*.iqr - interquartile range
-*.entropy - signal entropy
-*.arCoeff - Autoregression coefficients
-*.corellation - correlation coefficient between body and gravity vector
+* .mean - mean
+* .std  - standard deviation
+* .mad  - median absolute deviation
+* .max  - maximum of recorded value
+* .min  - minimum of recorded value
+* .sma  - signal magnitude area
+* .energy - Sum of squares divided by number of values
+* .iqr - interquartile range
+* .entropy - signal entropy
+* .arCoeff - Autoregression coefficients
+* .corellation - correlation coefficient between body and gravity vector
 
 ## Time domain list
 
@@ -47,11 +47,11 @@ time.BodyAccMag - Acceleration magnitude, not a vector quantity like others
 
 In addition to the above statistics, frequency-domain data included the following:
  
-*.kurtosis - kurtosis of frequency domain signal
-*.meanFreq  - Weighted average of frequency components
-*.skewness - skeqness of frequency domain signal
-*.maxInds  - Index of the frequency component with the largest magnitude
-*.bandsEnergy - 64-bin histogram of frequency components from FFT
+* .kurtosis - kurtosis of frequency domain signal
+* .meanFreq  - Weighted average of frequency components
+* .skewness - skeqness of frequency domain signal
+* .maxInds  - Index of the frequency component with the largest magnitude
+* .bandsEnergy - 64-bin histogram of frequency components from FFT
 
 freq.BodyAcc - Body component of acclerometer vector
 freq.BodyAccJerk - Jerk of body acc vector
