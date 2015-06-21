@@ -26,9 +26,9 @@ Substantial renaming of the features was accomplished. A single period, ".",
 was adopted at the default seperator. The following characeters or tuples
 were converted to the default separator.
 
-*double parans (e.g. mean() => mean. )
-*single parans (e.g. angle(Z,gravityMean) => angle.Z.gravityMean)
-*commas
+* double parans (e.g. mean() => mean. )
+* single parans (e.g. angle(Z,gravityMean) => angle.Z.gravityMean)
+* commas
 
 Trailing periods were removed
 
